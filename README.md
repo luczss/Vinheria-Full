@@ -48,7 +48,7 @@ A solução é dividida em quatro camadas, separando a interface, as regras de n
 
 ### Diagrama da arquitetura
 
-![Diagrama da arquitetura da Vinheria Full](docs/arquitetura-vinheria-full.jpeg)
+![Diagrama da arquitetura da Vinheria Full](https://raw.githubusercontent.com/luczss/Vinheria-Full/main/vinheria-full/docs/diagrama.jpeg)
 
 ### Fluxo de telemetria
 
@@ -536,14 +536,15 @@ Os testes locais verificam regras de alertas, triggers e validações. Eles não
 
 | Documento / recurso | Conteúdo |
 |---|---|
-| [`docs/API.md`](docs/API.md) | Contrato da API, endpoints, parâmetros e respostas. |
-| [`docs/FRONTEND_GUIDE.md`](docs/FRONTEND_GUIDE.md) | Guia de integração e comportamento esperado do frontend. |
-| [`backend/.env.example`](backend/.env.example) | Modelo das variáveis de ambiente do backend. |
-| [`firmware/esp32/vinheria_esp32.ino`](firmware/esp32/vinheria_esp32.ino) | Código do firmware ESP32. |
-| [FIWARE — Referência da disciplina](https://github.com/fabiocabrini/fiware) | Infraestrutura FIWARE utilizada na atividade. |
-| [FIWARE Orion Context Broker](https://github.com/telefonicaid/fiware-orion) | Documentação e código do Orion. |
-| [FIWARE IoT Agent Ultralight](https://github.com/telefonicaid/iotagent-ul) | Documentação e código do IoT Agent. |
-| [FIWARE STH-Comet](https://github.com/telefonicaid/fiware-sth-comet) | Documentação e código do STH-Comet. |
+| [API.md](vinheria-full/docs/API.md) | Contrato da API, endpoints, parâmetros e respostas. |
+| [FRONTEND_GUIDE.md](vinheria-full/docs/FRONTEND_GUIDE.md) | Guia de integração e comportamento esperado do frontend. |
+| [Manual completo do projeto](vinheria-full/docs/Manual_Vinheria_Full_CP5.docx) | Manual completo com orientações, funcionalidades e documentação do sistema. |
+| [backend/.env.example](vinheria-full/backend/.env.example) | Modelo das variáveis de ambiente do backend. |
+| [Firmware ESP32](vinheria-full/firmware/esp32/vinheria_esp32.ino) | Código do firmware ESP32. |
+| [FIWARE — Referência da disciplina](https://www.fiware.org/) | Infraestrutura FIWARE utilizada na atividade. |
+| [FIWARE Orion Context Broker](https://github.com/FIWARE/context.Orion-LD) | Documentação e código do Orion. |
+| [FIWARE IoT Agent Ultralight](https://github.com/FIWARE/tutorials.IoT-Agent) | Documentação e código do IoT Agent. |
+| [FIWARE STH-Comet](https://github.com/FIWARE/tutorials.Short-Term-History) | Documentação e código do STH-Comet. |
 
 ---
 

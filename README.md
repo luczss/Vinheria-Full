@@ -122,7 +122,7 @@ Quando o valor retorna à faixa normal, considerando a histerese configurada, o 
 ## 📁 Estrutura do repositório
 
 ```text
-cp6web/
+VinheriaFull/
 │
 ├── backend/
 │   ├── src/
@@ -198,8 +198,8 @@ A execução local depende da infraestrutura FIWARE estar disponível e configur
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/CP6WEB/cp6web.git
-cd cp6web
+git clone https://github.com/luczss/Vinheria-Full.git
+cd Vinheria-Full
 ```
 
 ### 2. Configurar e iniciar o backend

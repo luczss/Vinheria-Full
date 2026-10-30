@@ -1,0 +1,12 @@
+{
+  "name": "vinheria-full",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo Vinheria Full (CP5 Edge Computing - FIAP)",
+  "scripts": {
+    "backend:install": "npm --prefix backend install",
+    "backend:start": "npm --prefix backend start",
+    "backend:dev": "npm --prefix backend run dev",
+    "backend:test": "npm --prefix backend test"
+  }
+}

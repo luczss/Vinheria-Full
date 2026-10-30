@@ -1,0 +1,9 @@
+{
+  "createDevice": { "deviceId": "vinheria001", "displayName": "Vinheria Real (ESP32)", "location": "Adega principal" },
+  "putTriggers": {
+    "temperature": { "enabled": true, "min": 10, "max": 25 },
+    "humidity": { "enabled": true, "min": 40, "max": 70 },
+    "luminosity": { "enabled": true, "min": 20, "max": 80 }
+  },
+  "command": { "command": "displayAlert", "parameter": "temperature" }
+}
